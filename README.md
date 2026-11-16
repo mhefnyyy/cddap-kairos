@@ -135,6 +135,5 @@ dropped and reported. Full details: `docs/Mini-RFC.md`.
 - [x] Mini-RFC draft sections 1–3 with header table + sample messages (`docs/Mini-RFC.docx`)
 - [x] Working prototype: INIT (`HELLO/WELCOME` + sync) and DATA (`EXECUTE_AT/ACTION_CONFIRM`) over UDP
 - [x] Logs with timestamps for every packet
-- [x] Automated Baseline-local script (`run_baseline.sh` / `.bat` / `.py`)
-- [ ] 5-minute demo video link (paste above)
+
 
