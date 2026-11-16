@@ -1,0 +1,61 @@
+[server +   0.000s] KAIROS/1 time authority listening on 0.0.0.0:5600 (seed=3, waiting for 4 clients)
+[server +   0.548s] HELLO from ('127.0.0.1', 58200) -> assigned node_id=1 (1/4 clients)
+[server +   0.689s] HELLO from ('127.0.0.1', 58201) -> assigned node_id=2 (2/4 clients)
+[server +   0.806s] HELLO from ('127.0.0.1', 58202) -> assigned node_id=3 (3/4 clients)
+[server +   0.921s] HELLO from ('127.0.0.1', 58203) -> assigned node_id=4 (4/4 clients)
+[server +   0.979s] all clients joined; warm-up 2.0s of clock sync
+[server +   2.994s] cmd 1: EXECUTE_AT broadcast, target in 500 ms
+[server +   3.494s] cmd 1: node 1 executed at target-0.010 ms (offset=-0.012 ms, rtt=0.626 ms)
+[server +   3.494s] cmd 1: node 3 executed at target+0.012 ms (offset=-17.702 ms, rtt=0.222 ms)
+[server +   3.494s] cmd 1: node 2 executed at target+0.026 ms (offset=+104.813 ms, rtt=0.345 ms)
+[server +   3.494s] cmd 1: node 4 executed at target+0.018 ms (offset=+52.005 ms, rtt=0.272 ms)
+[server +   4.013s] cmd 2: EXECUTE_AT broadcast, target in 500 ms
+[server +   4.513s] cmd 2: node 1 executed at target-0.002 ms (offset=-0.019 ms, rtt=0.653 ms)
+[server +   4.513s] cmd 2: node 4 executed at target-0.020 ms (offset=+51.976 ms, rtt=0.584 ms)
+[server +   4.513s] cmd 2: node 2 executed at target-0.018 ms (offset=+104.786 ms, rtt=0.367 ms)
+[server +   4.514s] cmd 2: node 3 executed at target-0.002 ms (offset=-17.715 ms, rtt=0.519 ms)
+[server +   5.018s] cmd 3: EXECUTE_AT broadcast, target in 500 ms
+[server +   5.519s] cmd 3: node 4 executed at target+0.013 ms (offset=+51.994 ms, rtt=0.359 ms)
+[server +   5.519s] cmd 3: node 1 executed at target+0.009 ms (offset=-0.008 ms, rtt=0.301 ms)
+[server +   5.519s] cmd 3: node 3 executed at target-0.022 ms (offset=-17.713 ms, rtt=0.342 ms)
+[server +   5.519s] cmd 3: node 2 executed at target+0.004 ms (offset=+104.802 ms, rtt=0.417 ms)
+[server +   6.025s] cmd 4: EXECUTE_AT broadcast, target in 500 ms
+[server +   6.525s] cmd 4: node 4 executed at target+0.001 ms (offset=+51.995 ms, rtt=0.422 ms)
+[server +   6.525s] cmd 4: node 1 executed at target+0.010 ms (offset=+0.005 ms, rtt=0.485 ms)
+[server +   6.525s] cmd 4: node 3 executed at target+0.017 ms (offset=-17.700 ms, rtt=0.397 ms)
+[server +   6.525s] cmd 4: node 2 executed at target+0.002 ms (offset=+104.784 ms, rtt=0.659 ms)
+[server +   7.031s] cmd 5: EXECUTE_AT broadcast, target in 500 ms
+[server +   7.532s] cmd 5: node 1 executed at target+0.012 ms (offset=+0.009 ms, rtt=0.320 ms)
+[server +   7.532s] cmd 5: node 4 executed at target-0.021 ms (offset=+51.984 ms, rtt=0.381 ms)
+[server +   7.532s] cmd 5: node 3 executed at target+0.019 ms (offset=-17.691 ms, rtt=0.414 ms)
+[server +   7.532s] cmd 5: node 2 executed at target+0.002 ms (offset=+104.792 ms, rtt=0.484 ms)
+[server +   8.037s] cmd 6: EXECUTE_AT broadcast, target in 500 ms
+[server +   8.538s] cmd 6: node 4 executed at target+0.031 ms (offset=+52.000 ms, rtt=0.295 ms)
+[server +   8.538s] cmd 6: node 2 executed at target+0.019 ms (offset=+104.791 ms, rtt=0.705 ms)
+[server +   8.538s] cmd 6: node 3 executed at target+0.003 ms (offset=-17.715 ms, rtt=0.537 ms)
+[server +   8.538s] cmd 6: node 1 executed at target+0.003 ms (offset=-0.005 ms, rtt=0.340 ms)
+[server +   9.043s] cmd 7: EXECUTE_AT broadcast, target in 500 ms
+[server +   9.544s] cmd 7: node 3 executed at target+0.032 ms (offset=-17.672 ms, rtt=0.298 ms)
+[server +   9.544s] cmd 7: node 4 executed at target-0.003 ms (offset=+52.006 ms, rtt=0.333 ms)
+[server +   9.544s] cmd 7: node 1 executed at target-0.022 ms (offset=+0.004 ms, rtt=0.266 ms)
+[server +   9.544s] cmd 7: node 2 executed at target-0.008 ms (offset=+104.804 ms, rtt=0.284 ms)
+[server +  10.049s] cmd 8: EXECUTE_AT broadcast, target in 500 ms
+[server +  10.550s] cmd 8: node 2 executed at target+0.011 ms (offset=+104.829 ms, rtt=0.340 ms)
+[server +  10.550s] cmd 8: node 4 executed at target+0.012 ms (offset=+52.018 ms, rtt=0.353 ms)
+[server +  10.550s] cmd 8: node 3 executed at target-0.013 ms (offset=-17.683 ms, rtt=0.311 ms)
+[server +  10.550s] cmd 8: node 1 executed at target+0.014 ms (offset=+0.012 ms, rtt=0.304 ms)
+[server +  11.055s] cmd 9: EXECUTE_AT broadcast, target in 500 ms
+[server +  11.555s] cmd 9: node 4 executed at target-0.011 ms (offset=+52.019 ms, rtt=0.313 ms)
+[server +  11.555s] cmd 9: node 3 executed at target-0.023 ms (offset=-17.703 ms, rtt=0.345 ms)
+[server +  11.555s] cmd 9: node 2 executed at target-0.002 ms (offset=+104.800 ms, rtt=0.293 ms)
+[server +  11.555s] cmd 9: node 1 executed at target-0.017 ms (offset=-0.003 ms, rtt=0.333 ms)
+[server +  12.061s] cmd 10: EXECUTE_AT broadcast, target in 500 ms
+[server +  12.562s] cmd 10: node 2 executed at target-0.007 ms (offset=+104.805 ms, rtt=0.469 ms)
+[server +  12.562s] cmd 10: node 1 executed at target+0.009 ms (offset=+0.023 ms, rtt=0.253 ms)
+[server +  12.562s] cmd 10: node 4 executed at target-0.007 ms (offset=+52.017 ms, rtt=0.334 ms)
+[server +  12.562s] cmd 10: node 3 executed at target+0.007 ms (offset=-17.682 ms, rtt=0.386 ms)
+[server +  14.579s] ============================================================
+[server +  14.579s] commands=10 clients=4 misses=0
+[server +  14.579s] execution_divergence_ms  min=0.016 median=0.028 max=0.054
+[server +  14.579s] RESULT: PASS (acceptance: divergence <= 5.0 ms, all confirms received)
+[server +  14.579s] outputs in C:\Users\marwa\Desktop\cddap_milestone1\cddap\results\baseline_20261116-163124_seed3

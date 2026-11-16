@@ -1,0 +1,16 @@
+{
+  "protocol": "KAIROS/1",
+  "seed": 3,
+  "clients": 4,
+  "commands": 10,
+  "lead_ms": 500,
+  "tolerance_ms": 5.0,
+  "execution_divergence_ms": {
+    "min": 0.028,
+    "median": 0.047,
+    "max": 12.193
+  },
+  "deadline_miss_count": 0,
+  "all_commands_fully_confirmed": true,
+  "pass": false
+}
